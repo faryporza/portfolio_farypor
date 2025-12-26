@@ -9,8 +9,8 @@ interface AboutSectionProps {
     socials: {
       facebook: string;
       instagram: string;
-      website: string;
-      [key: string]: string;
+      website?: string;
+      [key: string]: string | undefined;
     };
   };
 }
