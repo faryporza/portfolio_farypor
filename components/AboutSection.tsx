@@ -6,6 +6,7 @@ import { Globe, Terminal, Cpu, Facebook, Instagram } from "lucide-react";
 interface AboutSectionProps {
   personalInfo: {
     education: string;
+    profileImage: string;
     socials: {
       facebook: string;
       instagram: string;
@@ -25,7 +26,7 @@ export default function AboutSection({ personalInfo }: AboutSectionProps) {
               <div className="absolute -inset-1 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
               <div className="relative bg-card border border-card-border rounded-2xl p-2 overflow-hidden">
                 <img 
-                  src="https://media.tenor.com/2roX3uxz_68AAAAC/anime-smile.gif" 
+                  src={personalInfo.profileImage} 
                   alt="Profile" 
                   className="w-full h-auto rounded-xl"
                 />
