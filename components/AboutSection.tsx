@@ -62,6 +62,11 @@ export default function AboutSection({ personalInfo }: AboutSectionProps) {
               <a href={personalInfo.socials.instagram} target="_blank" rel="noopener noreferrer" className="p-2 rounded-lg bg-card border border-card-border hover:border-pink-500/30 transition-all text-gray-500 hover:text-pink-500">
                 <Instagram className="w-5 h-5" />
               </a>
+              {personalInfo.socials.website && (
+                <a href={personalInfo.socials.website} target="_blank" rel="noopener noreferrer" className="p-2 rounded-lg bg-card border border-card-border hover:border-green-500/30 transition-all text-gray-500 hover:text-green-500">
+                  <Globe className="w-5 h-5" />
+                </a>
+              )}
             </div>
           </AnimatedSection>
         </div>
