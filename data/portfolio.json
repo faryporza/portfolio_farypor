@@ -1,0 +1,42 @@
+{
+  "skills": [
+    "React",
+    "Node.js",
+    "MySQL",
+    "PHP",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "HTML",
+    "Tailwind"
+  ],
+  "services": [
+    {
+      "icon": "Globe",
+      "title": "Web Development",
+      "description": "Building scalable, responsive web applications with modern frameworks and best practices."
+    },
+    {
+      "icon": "Bug",
+      "title": "Optimization & Fixes",
+      "description": "Debugging complex issues and optimizing performance for lightning-fast user experiences."
+    },
+    {
+      "icon": "Terminal",
+      "title": "Full Stack Solutions",
+      "description": "End-to-end development from database architecture to frontend interactivity."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Restaurant OS",
+      "description": "Comprehensive management platform with real-time QR ordering, inventory tracking, and sales analytics dashboard.",
+      "technologies": ["React", "Node.js", "MySQL", "Socket.io"]
+    },
+    {
+      "title": "SlipOK Payment API",
+      "description": "Automated payment verification microservice integrating banking APIs for instant transaction confirmation.",
+      "technologies": ["PHP", "TypeScript", "REST API"]
+    }
+  ]
+}
