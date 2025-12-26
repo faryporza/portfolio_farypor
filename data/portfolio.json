@@ -1,15 +1,24 @@
 {
-  "skills": [
-    "React",
-    "Node.js",
-    "MySQL",
-    "PHP",
-    "CSS",
-    "JavaScript",
-    "TypeScript",
-    "HTML",
-    "Tailwind"
-  ],
+  "personalInfo": {
+    "name": "Thanakit Chuchoed",
+    "title": "Fullstack & Web Developer",
+    "subtitle": "Crafting Creative Tech Experiences",
+    "description": "Developer focused on building high-performance web applications with modern architecture and clean code. Passionate about Cloud and Web Development.",
+    "education": "CS Student @ University of Phayao (66)",
+    "location": "Sukhothai, TH",
+    "email": "tanakit200663@gmail.com",
+    "socials": {
+      "facebook": "https://www.facebook.com/profile.php?id=100018481330637",
+      "github": "https://github.com/faryporza",
+      "instagram": "http://www.instagram.com/farypor"
+    }
+  },
+  "skills": {
+    "languages": ["JavaScript", "TypeScript", "Python", "PHP", "Go", "Dart", "HTML", "CSS"],
+    "frameworks": ["Next.js", "React", "Bun", "Vue", "Node.js", "Express", "Vite", "Flutter", "Tailwind", "Git", "Prisma"],
+    "cloud": ["MySQL", "MongoDB", "Firebase", "Docker", "Azure", "GCP", "Kubernetes"],
+    "ai": ["PyTorch", "TensorFlow", "OpenCV"]
+  },
   "services": [
     {
       "icon": "Globe",
@@ -29,14 +38,29 @@
   ],
   "projects": [
     {
-      "title": "Restaurant OS",
+      "title": "Vehicle Detection Demo",
+      "description": "Real-time vehicle detection system using YOLO architecture with Python and database logging for traffic analysis.",
+      "technologies": ["Python", "YOLO", "OpenCV", "MySQL"]
+    },
+    {
+      "title": "Food Ordering System",
       "description": "Comprehensive management platform with real-time QR ordering, inventory tracking, and sales analytics dashboard.",
       "technologies": ["React", "Node.js", "MySQL", "Socket.io"]
     },
     {
-      "title": "SlipOK Payment API",
-      "description": "Automated payment verification microservice integrating banking APIs for instant transaction confirmation.",
-      "technologies": ["PHP", "TypeScript", "REST API"]
+      "title": "Face Attendance System",
+      "description": "Automated attendance tracking system using facial recognition technology integrated with a web dashboard.",
+      "technologies": ["Python", "OpenCV", "React", "Flask"]
+    },
+    {
+      "title": "Flutter UI Ecommerce",
+      "description": "Modern mobile e-commerce application prototype with smooth animations and responsive design.",
+      "technologies": ["Flutter", "Dart", "Firebase"]
+    },
+    {
+      "title": "AI Food Recommendation",
+      "description": "Machine learning recommendation engine that suggests dishes based on user preferences and dietary habits.",
+      "technologies": ["Python", "TensorFlow", "Scikit-learn"]
     }
   ]
 }

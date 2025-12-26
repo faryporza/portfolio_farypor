@@ -28,7 +28,6 @@ export function ThemeToggle() {
     <button
       type="button"
       onClick={() => {
-        console.log("Theme toggle clicked");
         setTheme(resolvedTheme === "dark" ? "light" : "dark");
       }}
       className="relative p-2 rounded-lg bg-card border border-card-border hover:border-blue-500/30 transition-all text-gray-500 dark:text-gray-400 hover:text-foreground dark:hover:text-white cursor-pointer flex items-center justify-center z-[100] pointer-events-auto"
